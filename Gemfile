@@ -11,5 +11,5 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
-gem 'middleman-deploy', '~> 1.0'
-
+gem 'middleman-s3_sync'
+gem 'middleman-dotenv', '~> 2.0'
