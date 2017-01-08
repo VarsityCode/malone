@@ -1,8 +1,58 @@
 @charset "utf-8";
-@import "normalize";
+$highlight: #6dc77a;
 
-body {
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+.secondary-background{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f8fa;
+}
+
+#landing-header{
+  padding-top:200px;
+  padding-bottom:200px;
+  line-height: 200%;
+  background: url("../images/hero.jpg") 50% 50%;
+
+  h1, h2, h3, h4, h5, p{
+    color:white;
+    text-shadow: 2px 2px 5px black;
+  }
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#tech-logos{
+  padding-top:20px;
+}
+
+#course-details{
+  h4{
+    margin-top:50px;
+  }
+}
+
+section{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer{
+  padding-top:100px;
+  padding-bottom:200px;
+  background: url("../images/footer_pattern.png");
+}
+
+.bigger{
+  font-size:120%;
+}
+
+.icon-header{
+  height: 80px;
+  img{
+    height: 100%;
+  }
+  margin-bottom:45px;
 }
