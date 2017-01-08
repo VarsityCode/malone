@@ -1,6 +1,16 @@
 @charset "utf-8";
 $highlight: #6dc77a;
 
+nav{
+  background: url("../images/footer_pattern.png");
+  #nav-brand-link {
+    color: white;
+  }
+}
+.navbar-default{
+  border-width:0px;
+}
+
 .secondary-background{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -15,8 +25,21 @@ $highlight: #6dc77a;
 
   h1, h2, h3, h4, h5, p{
     color:white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 4px 4px 15px black;
   }
+  h5{
+    line-height:10px;
+  }
+}
+
+#jobs-background{
+  section{
+    margin-top:0px;
+  }
+  padding-top: 100px;
+  height: 400px;
+  background: url("../images/steve_jobs.png") 50% 50%;
+  background-size: cover;
 }
 
 img{
@@ -40,8 +63,12 @@ section{
 }
 
 footer{
+
+  h1, h2, h3, h4, h5, p{
+    color:white;
+  }
   padding-top:100px;
-  padding-bottom:200px;
+  padding-bottom:50px;
   background: url("../images/footer_pattern.png");
 }
 
@@ -55,4 +82,5 @@ footer{
     height: 100%;
   }
   margin-bottom:45px;
+  margin-top:45px;
 }
