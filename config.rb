@@ -50,6 +50,7 @@ activate :s3_sync do |s3_sync|
   s3_sync.aws_access_key_id          = ENV["AWS_KEY_ID"]
   s3_sync.aws_secret_access_key      = ENV["AWS_SECRET"]
   s3_sync.prefer_gzip                = true
+  s3_sync.after_build                = true
   s3_sync.path_style                 = true
   s3_sync.reduced_redundancy_storage = false
   s3_sync.acl                        = 'public-read'
