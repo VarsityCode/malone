@@ -1,5 +1,25 @@
 @charset "utf-8";
 $highlight: #6dc77a;
+$darker-highlight: #5ca967;
+
+.btn-primary{
+  a{
+    color:white;
+  }
+
+  a:hover{
+    color:white;
+  }
+  background-color: $highlight;
+  border-color: $darker-highlight;
+  color:white;
+}
+
+.btn-primary:hover{
+  background-color: $highlight;
+  border-color: $darker-highlight;
+  color:white;
+}
 
 nav{
   background: url("../images/footer_pattern.png");
@@ -48,7 +68,9 @@ img{
 }
 
 #tech-logos{
-  padding-top:20px;
+  padding-top:145px;
+  img{
+  }
 }
 
 #course-details{
