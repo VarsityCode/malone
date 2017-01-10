@@ -40,15 +40,14 @@ nav{
 #landing-header{
   padding-top:200px;
   padding-bottom:200px;
-  line-height: 200%;
+  padding-left:20px;
+  padding-right:20px;
   background: url("../images/hero.jpg") 50% 50%;
 
   h1, h2, h3, h4, h5, p{
     color:white;
+    line-height: 120%;
     text-shadow: 4px 4px 15px black;
-  }
-  h5{
-    line-height:10px;
   }
 }
 
