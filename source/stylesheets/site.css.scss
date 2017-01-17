@@ -106,13 +106,20 @@ section{
 
 footer{
 
+  .class-info{
+    margin-top:25px;
+    color: #888
+  }
+  .contact-info{
+    margin-top:25px;
+    p{
+      line-height: 70px;
+      font-size:130%;
+    }
+  }
+
   h1, h2, h3, h4, h5, p{
     color:white;
-  }
-  .class-info{
-    p{
-      color: #888
-    }
   }
   padding-top:100px;
   padding-bottom:50px;
@@ -121,6 +128,16 @@ footer{
     padding-right: 20px;
     padding-left: 30px;
     font-size: 200%;
+  }
+
+  .text-highlight{
+    color:$highlight;
+  }
+  a{
+    color:$highlight;
+  }
+  a:hover{
+    color:$darker-highlight;
   }
 }
 
@@ -135,4 +152,7 @@ footer{
   }
   margin-bottom:45px;
   margin-top:45px;
+}
+.copyright{
+  margin-top:200px;
 }
