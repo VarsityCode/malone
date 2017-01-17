@@ -43,6 +43,8 @@ nav{
   padding-left:20px;
   padding-right:20px;
   background: url("../images/hero.jpg") 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1, h2, h3, h4, h5, p{
     color:white;
