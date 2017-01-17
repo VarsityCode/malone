@@ -61,10 +61,23 @@ nav{
   section{
     margin-top:0px;
   }
-  padding-top: 100px;
+  padding-top: 70px;
   height: 400px;
   background: url("../images/steve_jobs.png") 50% 50%;
   background-size: cover;
+}
+
+.jobs-quote{
+  font-style: italic;
+  font-size:120%;
+  line-height:140%;
+}
+
+.big-quote{
+  font-size:1500%;
+  font-family: "News Cycle", serif;
+  padding-top:30px;
+  color:#ccc;
 }
 
 img{
@@ -94,9 +107,19 @@ footer{
   h1, h2, h3, h4, h5, p{
     color:white;
   }
+  .class-info{
+    p{
+      color: #888
+    }
+  }
   padding-top:100px;
   padding-bottom:50px;
   background: url("../images/footer_pattern.png");
+  span{
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 200%;
+  }
 }
 
 .bigger{
